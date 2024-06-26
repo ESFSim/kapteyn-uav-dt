@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 
 import pygraphviz
 import pomegranate as pm
-from pomegranate import BayesianNetwork
+from pomegranate.bayesian_network import BayesianNetwork
 import tempfile
 
 from digitaltwin.utils import *
