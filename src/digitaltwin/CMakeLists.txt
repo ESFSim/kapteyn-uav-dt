@@ -26,7 +26,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
  )
 
 # Install the python module for this package
-ament_python_install_package(${PROJECT_NAME})
+# ament_python_install_package(${PROJECT_NAME})
 
 
 include_directories(include ${rclcpp_INCLUDE_DIRS})
